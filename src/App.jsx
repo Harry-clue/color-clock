@@ -9,9 +9,12 @@ function App() {
 
 
   return (
-    <div className="App" >
-      <h1>{ date.toLocaleTimeString()}</h1>
-      <h2>{ date.toLocaleDateString()}</h2>
+    <div>
+      <p>{date.toLocaleTimeString()}</p>
+      <p>
+        Date :
+        {date.toLocaleDateString()}
+      </p>
     </div>
   );
 }
